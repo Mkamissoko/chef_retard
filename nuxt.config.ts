@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxtjs/tailwindcss',
-    'nuxt-simple-sitemap'
+    'nuxt-simple-sitemap',
   ],
   site: {
     url: "https://chefpasderetard.fr",

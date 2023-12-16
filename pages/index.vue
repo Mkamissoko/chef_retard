@@ -2,8 +2,8 @@
 
 </script>
 
-<template>
-
+<template>debut index
+<NuxtPage />fin index
 </template>
 
 <style scoped>

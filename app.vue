@@ -12,7 +12,7 @@ useSeoMeta({
 </script>
 
 <template>
-      <NuxtPage />
+    <NuxtLayout />
 </template>
 
 <style lang="scss">

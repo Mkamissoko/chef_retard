@@ -4,7 +4,7 @@
 
 <template>
     <div>
-        <NuxtWelcome />
+<!--        <NuxtWelcome />-->
         <NuxtLogo />
 
         <div class="w-4/6 mx-auto">
