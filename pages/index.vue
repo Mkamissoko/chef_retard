@@ -3,55 +3,43 @@
 </script>
 
 <template>
-    <div>
-        <!--        <NuxtWelcome />-->
-        <NuxtLogo />
-
-        <div class="w-4/6 mx-auto">
-            <router-view></router-view>
-        </div>
+    <div class="flex flex-col gap-8">
         <span class="font-bold text-5xl">Chef sans retard</span>
 
-        <section id="introduction">
-            <h2>Chef pas de retard offre une expérience unique pour maîtriser le temps avec élégance.</h2>
-            <p>Découvrez notre sélection de billets de retards soigneusement conçus pour vous accompagner avec style à chaque étape de votre journée. Évitez les tracas liés aux retards et adoptez la ponctualité avec nos solutions créatives.</p>
+        <section>
+            <p>Plongez dans un monde où la cuisine devient une aventure sans contraintes de temps. Chez Chef Retard, nous croyons que la passion pour la gastronomie ne devrait pas être entravée par des horaires serrés. Notre mission est de rendre la cuisine accessible à tous, même aux chefs pressés, en offrant des recettes délicieuses et des astuces pratiques.</p>
+            <p>Explorez une variété de plats conçus pour s'adapter à votre emploi du temps chargé, sans compromettre la qualité ou le goût. Que vous soyez un professionnel pressé ou un novice en cuisine, nous avons quelque chose pour vous. Chef Retard est votre compagnon culinaire, vous guidant à travers des créations savoureuses, des astuces de cuisine ingénieuses et des profils inspirants de chefs passionnés.</p>
+            <p>Préparez-vous à vivre une expérience gastronomique sans stress. Notre équipe de chefs experts est là pour vous inspirer et vous accompagner à chaque étape de votre aventure culinaire. Rejoignez la communauté Chef Retard et découvrez le plaisir de cuisiner, même lorsque le temps presse.</p>
+            <p>Avec Chef Retard, nous comprenons que parfois, les chefs sont en retard. C'est pourquoi nous avons mis en place une politique claire quant aux retards. Nous évitons les retards intempestifs en montrant l'exemple. Notre équipe de chefs experts est là pour vous inspirer et vous accompagner à chaque étape de votre aventure culinaire. Rejoignez la communauté Chef Retard et découvrez le plaisir de cuisiner, même lorsque le temps presse.</p>
+            <p>Nous avons mis en place un plan d'action pour gérer les retards. Nous planifions conjointement avec le retardataire les actions adéquates en vue de corriger ce comportement et éviter qu'il ne se reproduise par la suite. Nous suivons et félicitons les efforts, revoyons les actions mises en place ou sanctionnons si les retards persistent.</p>
+            <p>Avec Chef Retard, vous n'êtes pas seul. Nous sommes là pour vous aider à gérer vos retards et à vous assurer que votre passion pour la cuisine ne soit pas entravée par des horaires serrés. Rejoignez-nous et découvrez une nouvelle façon de cuisiner.</p>
         </section>
 
-        <section id="pourquoi-nous-choisir">
-            <h2>Pourquoi Nous Choisir ?</h2>
-            <p>Nous comprenons que le temps est une ressource précieuse. C'est pourquoi notre approche de leadership met l'accent sur la minimisation des retards, permettant ainsi d'optimiser chaque minute pour des résultats exceptionnels.</p>
-            <p>Les conseils que nous partageons sont inspirés par les stratégies éprouvées des chefs qui naviguent dans des environnements exigeants tout en maintenant un leadership solide et efficace.</p>
-            <div>
-                <div>
-                    <img src="http://lorempicsum" alt="">
-                    <p>Retards élégants Des billets de retards soigneusement conçus pour vous accompagner avec style à chaque étape de votre journée</p>
-                </div>
-                <div>
-                    <img src="http://lorempicsum" alt="">
-                    <p>Solutions créatives Découvrez nos solutions créatives pour éviter les tracas liés aux retards et adopter la ponctualité</p>
-                </div>
-                <div>
-                    <img src="http://lorempicsum" alt="">
-                    <p>Communautés des chefs de la ponctualité Rejoignez la communauté des chefs de la ponctualité et partagez vos expériences avec d'autres chefs</p>
-                </div>
-            </div>
-            <button>Acheztez votre billet</button>
+
+        <section>
+            <router-link to="/"><h2>Notre Mission</h2></router-link>
+            <p>Chef Retard s'engage à simplifier la cuisine quotidienne en offrant des recettes délicieuses, pratiques et adaptées à un mode de vie dynamique.</p>
         </section>
 
-        <section id="qui-sommes-nous">
-            <h2>Notre entreprise</h2>
-            <p>Nous sommes une entreprise spécialisée dans la création de solutions élégantes pour maîtriser le temps avec style.</p>
-            <p>Innovation Nous sommes constamment à la recherche de nouvelles idées pour vous accompagner dans votre quête de ponctualité.</p>
-            <p>Qualité Nos produits sont soigneusement conçus et fabriqués avec les meilleurs matériaux pour garantir leur durabilité.</p>
-            <p>Engagement Nous nous engageons à fournir des solutions créatives et pratiques pour vous aider à éviter les tracas des retards.</p>
+        <section>
+            <router-link to="/chefRetardBackroom"><h2>Les Chefs derrière Chef Retard</h2></router-link>
+            <p>Découvrez les personnalités uniques qui créent les recettes inspirantes de Chef Retard. Rencontrez nos chefs et explorez leurs histoires culinaires.</p>
         </section>
 
-        <section id="billets-de-retard">
-            <h2>Histoires de Réussite</h2>
-            <p>Explorez nos histoires de réussite où des leaders ont appliqué avec succès les stratégies sans retard des chefs pour surmonter des situations complexes et mener leurs équipes vers la victoire.</p>
-            <p>Que vous soyez un chef d'entreprise chevronné ou un leader émergent, vous trouverez des inspirations pratiques pour améliorer votre propre parcours vers le succès.</p>
+        <section>
+            <router-link to="/chefRetardExpress"><h2>Chef Retard Express</h2></router-link>
+            <p>Explorez nos recettes express pour des repas délicieux sans sacrifier votre temps. Des saveurs exceptionnelles à portée de main en quelques étapes simples.</p>
         </section>
 
+        <section>
+            <router-link to="/chefRetardTips"><h2>Astuces du Chef Retard</h2></router-link>
+            <p>Découvrez nos astuces infaillibles pour gérer votre temps en cuisine sans compromettre la qualité. Des conseils pratiques pour simplifier chaque étape.</p>
+        </section>
+
+        <section>
+            <router-link to="/chefRetardGalery"><h2>Galerie de Créations Culinaires</h2></router-link>
+            <p>Explorez notre galerie visuelle présentant des créations culinaires uniques préparées avec passion par nos chefs. Laissez-vous inspirer.</p>
+        </section>
     </div>
 </template>
 

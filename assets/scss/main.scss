@@ -1,0 +1,10 @@
+h2 {
+  @apply text-2xl font-bold text-gray-800;
+}
+
+a {
+  @apply underline;
+  :hover {
+    @apply no-underline text-blue-500;
+  }
+}

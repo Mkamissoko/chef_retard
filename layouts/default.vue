@@ -6,8 +6,8 @@ import Header from "~/layouts/Header.vue";
 </script>
 
 <template>
-    <Header />
-    <NuxtPage />
+    <Header class="fixed w-full top-0"/>
+    <NuxtPage class="mx-auto my-[100px] w-5/6"/>
     <Footer />
 </template>
 
