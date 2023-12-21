@@ -4,7 +4,7 @@
 
 <template>
     <div class="flex flex-col gap-8">
-        <span class="font-bold text-5xl">Chef sans retard</span>
+        <h1 class="font-bold text-5xl">Malu votre Chef sans retard</h1>
 
         <section>
             <p>Plongez dans un monde où la cuisine devient une aventure sans contraintes de temps. Chez Chef Retard, nous croyons que la passion pour la gastronomie ne devrait pas être entravée par des horaires serrés. Notre mission est de rendre la cuisine accessible à tous, même aux chefs pressés, en offrant des recettes délicieuses et des astuces pratiques.</p>
